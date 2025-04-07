@@ -27,13 +27,13 @@ jobs:
 
       - name: Build Hugo prod
         if: github.ref == 'refs/heads/main'
-        run: hugo \
+        run: hugo build \
           --minify \
           --environment production
 
       - name: Build Hugo staging
         if: github.ref == 'refs/heads/staging'
-        run: hugo \
+        run: hugo build \
           --minify \
           --environment staging
 
