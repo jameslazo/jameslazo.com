@@ -1,0 +1,52 @@
+# https://github.com/actions/starter-workflows/blob/main/pages/hugo.yml
+name: Hugo Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@3a287949d38134f0920e6ac20032acef6d4a23c4
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build Hugo prod
+        if: github.ref == 'refs/heads/main'
+        run: hugo \
+          --minify \
+          --environment production
+
+      - name: Build Hugo staging
+        if: github.ref == 'refs/heads/staging'
+        run: hugo \
+          --minify \
+          --environment staging
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to prod
+        if: github.ref == 'refs/heads/main'
+        run: aws s3 sync public/ s3://${{ secrets.AWS_BUCKET_NAME }}/ --delete
+
+      - name: Deploy to staging
+        if: github.ref == 'refs/heads/staging'
+        run: aws s3 sync public/ s3://${{ secrets.AWS_BUCKET_NAME_STAGING }}/ --delete
