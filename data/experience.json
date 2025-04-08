@@ -1,14 +1,38 @@
 [
-    {
-        "role":"DevOps Assistant",
-        "company":"KubeCraft",
-        "summary":"\n- Own and manage Kubernetes cluster with GitOps principles and observability\n- Contribute to open source projects, supporting more sophisticated or stable integrations\n- Support and assist team through documentation, research and troubleshooting",
-        "range":"March 2025 - Present"
-    },
-    {
-        "role":"AWS Infrastructure & DevOps Engineer",
-        "company":"Acme Cloud",
-        "summary":"- Develop and automate CI/CD pipelines with GitHub Actions, reducing deployment times by 150%\n- Migrate traditional apps to Kubernetes, leveraging high-availability, orchestration and automation\n- Automate unit/regression testing and reporting, boosting development time by up to 20%\n- Contribute to open source projects, supporting more sophisticated or stable integrations\n- Provision Infrastructure as Code with Terraform & CloudFormation, improving deployment consistency while reducing deployment times by up to 300%\n- Design Multi-AZ failover deployments provisioned from the VPC up entirely in IaC, decoupling application and data tiers for 4x app resilience\n- Monitor deployments to efficiently resolve problems and reduce mean time to recovery by 5-10 times\n- Test on-premises and cloud API routes, ensuring secure and reliable cross-service communication",
-        "range":"April 2024 - Present"
-    }
+  {
+    "role":"DevOps Assistant",
+    "company":"KubeCraft",
+    "summary":"Collaborate and codevelop the KubeCraft Community through the application DevSecOps practices to community projects involving Kubernetes, Linux, Azure and AI.\n- Own and manage Kubernetes cluster with GitOps principles and observability\n- Contribute to open source projects, supporting more sophisticated or stable integrations\n- Support and assist team through documentation, research and troubleshooting",
+    "range":"March 2025 - Present"
+  },
+  {
+    "role":"AWS Infrastructure & DevOps Engineer",
+    "company":"Acme Cloud Solutions",
+    "summary":"Provide business solutions to drive automation, streamline development processes and strengthen security postures.\n- Develop and automate CI/CD pipelines with GitHub Actions, reducing deployment times by 150%\n- Migrate traditional apps to Kubernetes, leveraging high-availability, orchestration and automation\n- Automate unit/regression testing and reporting, boosting development time by up to 20%\n- Contribute to open source projects, supporting more sophisticated or stable integrations\n- Provision Infrastructure as Code with Terraform & CloudFormation, improving deployment consistency while reducing deployment times by up to 300%\n- Design Multi-AZ failover deployments provisioned from the VPC up entirely in IaC, decoupling application and data tiers for 4x app resilience\n- Monitor deployments to efficiently resolve problems and reduce mean time to recovery by 5-10 times\n- Test on-premises and cloud API routes, ensuring secure and reliable cross-service communication",
+    "range":"April 2024 - Present"
+  },
+  {
+    "role":"EDI Implementation Specialist",
+    "company":"Automatic Data Processing",
+    "summary":"Drove optimization and mentored associates in upskilling for improved processes.\n- Lead BPI adoption as Change Champion to mentor and upskill associates\n- Migrate 10+ legacy connections weekly, ensuring accurate data integration\n- Partner with Development Team to identify, track and resolve 15+ bugs through JIRA\n- Independently develop and distribute X12 834 Standard syntax highlighter, tripling analysis speed\n- Secure transmission of insurance benefits PHI per HIPAA requirements, maintaining compliance\n- Analyze XML mapping templates and SQL queries, assisting in template enhancements as needed\n- Drive 50+ concurrent EDI implementations, ensuring organization and priority alignment using Agile methodology while delivering 67% of projects ahead of schedule"
+    "range":"August 2023 - March 2025"
+  },
+  {
+    "role":"Consultant",
+    "company":"Duly Signified, LLC",
+    "summary":"Applied expertise in industry tools and workflows to cut costs and shape efficient pipelines.\n- Advised automotive multinational company on translation system implementation with computer-assisted translation (CAT) project workflows, translation memory management and glossary distribution for 250% increase in consistency and 70% cost reductions in translations of thousands of engineering documents\n- Presented analysis of LLM-generated translations to e-commerce conglomerate for internal review to support business decisions\n- Consulted DOJ on bilingual recorded interview and gave expert testimony regarding the accuracy and reliability of evidence presented to the court\n- Leveraged cloud API services for automated translation validation, quality assurance, and terminology consistency\n- Collaborated with engineering teams to ensure accuracy in translated technical content"
+    "range":"September 2017 - November 2023"
+  },
+  {
+    "role":"Team Lead",
+    "company":"Cosmich Simmons & Brown - Strategic Business Solutions",
+    "summary":"Identified and executed on opportunities for automation, process improvement and cost-savings.\n- Identified overly-broad queries and consulted on sufficient and necessary scopes in special reviews, directly leading to cost savings approaching $500,000\n- Developed database queries to automate QC and validation assignments for fully compliant coding of 1M+ documents\n- Analyzed 100k+ document pools to identify key areas of interest, and reported insights to Director and legal counsel, enabling agile pivots in legal strategy\n- Maintained technical documentation, realigning large projects with client requirements\n- Implemented backup solution for business critical data"
+    "range":"January 2017 - October 2019"
+  },
+  {
+    "role":"Team Lead",
+    "company":"Ryley Carlock & Applewhite",
+    "summary":"Developed documentation and organized project processes for improved transparency.\nCoordinated and mentored teams of 35+ translators/attorneys to meet rolling production deadlines of up to 50,000 documents per month\n- Advised name partners, executives, reviewers and other stakeholders, providing clarity and nuance\n- Streamlined 130+ pages of protocol instructions into a fully indexed SOP reference guide, empowering associates to work independently and productively"
+    "range":"July 2011 - December 2016"
+  }
 ]
