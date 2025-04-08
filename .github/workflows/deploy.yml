@@ -11,7 +11,7 @@ on:
 permissions:
   id-token: write # This is required for requesting the JWT
   contents: read  # This is required for actions/checkout
-  
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -30,15 +30,13 @@ jobs:
           extended: true
 
       - name: Build Hugo prod
-        if: github.ref == 'refs/heads/main'
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: hugo build \
-          --minify \
           --environment production
 
       - name: Build Hugo staging
-        if: github.ref == 'refs/heads/staging'
+        if: ${{ github.ref == 'refs/heads/staging' }}
         run: hugo build \
-          --minify \
           --environment staging
 
       - name: Configure AWS credentials
@@ -49,9 +47,9 @@ jobs:
           role-session-name: HugoGHA
 
       - name: Deploy to prod
-        if: github.ref == 'refs/heads/main'
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: aws s3 sync public/ s3://${{ secrets.AWS_BUCKET_NAME }}/ --delete
 
       - name: Deploy to staging
-        if: github.ref == 'refs/heads/staging'
+        if: ${{ github.ref == 'refs/heads/staging' }}
         run: aws s3 sync public/ s3://${{ secrets.AWS_BUCKET_NAME_STAGING }}/ --delete
