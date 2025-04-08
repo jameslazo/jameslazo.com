@@ -1,7 +1,7 @@
 ---
 title: "SNS Notification Service"
 link: "https://medium.com/@james.lazo/day-2-devops-challenge-3e7038fd3f58"
-image: "/img/api-server.png"
+image: "/img/sns-notification-service.png"
 description: "SNS game schedule automated with EventBridge, Lambda & SNS"
 tags: ["DevOps","AWS","IaC","GitHub Actions","Terraform","Python","automation","CI/CD","SNS", "EventBridge"]
 fact: "a"
