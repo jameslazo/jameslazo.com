@@ -1,5 +1,4 @@
 title = "James Lazo"
-baseURL = "https://www.jameslazo.com/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
@@ -9,7 +8,7 @@ enableGitInfo = false
 
 [params]
 address = "Phoenix, AZ"
-email = "james@acmecloudsolutions.com"
+email = "me@jameslazo.com"
 favicon = "favicon.ico"
 firstName = "James"
 lastName = "Lazo"
