@@ -1,4 +1,5 @@
 title = "James Lazo"
+baseURL = "https://www.jameslazo.com/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
