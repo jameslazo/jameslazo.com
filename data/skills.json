@@ -3,44 +3,44 @@
     "grouping":"Containers & Cloud",
       "skills":[
         {"name":"AWS","link":"https://www.jameslazo.com/tags/aws/"},
-        {"name":"Kubernetes","link":"https://www.jameslazo.com/tags/kubernetes"},
+        {"name":"Kubernetes","link":"https://www.jameslazo.com/tags/kubernetes/"},
         {"name":"Docker","link":"https://www.jameslazo.com/tags/docker/"},
-        {"name":"Linux","link":"https://www.jameslazo.com/tags/linux"}
+        {"name":"Linux","link":"https://www.jameslazo.com/tags/linux/"}
       ]
   },
   {
       "grouping":"Infrastructure as Code",
       "skills":[
         {"name":"Terraform","link":"https://www.jameslazo.com/tags/terraform/"},
-        {"name":"CloudFormation","link":"https://www.jameslazo.com/tags/cloudformation"},
-        {"name":"VPC","link":"https://www.jameslazo.com/tags/vpc"},
-        {"name":"DNS","link":"https://www.jameslazo.com/tags/dns"},
-        {"name":"Subnets","link":"https://www.jameslazo.com/tags/subnets"},
-        {"name":"Load Balancing","link":"https://www.jameslazo.com/tags/load-balancing"},
-        {"name":"Serverless","link":"https://www.jameslazo.com/tags/serverless"},
-        {"name": Microstacks","link":"https://www.jameslazo.com/tags/microstacks"},
-        {"name":"RESTful APIs""link":"https://www.jameslazo.com/tags/restful-apis"}
+        {"name":"CloudFormation","link":"https://www.jameslazo.com/tags/cloudformation/"},
+        {"name":"VPC","link":"https://www.jameslazo.com/tags/vpc/"},
+        {"name":"DNS","link":"https://www.jameslazo.com/tags/dns/"},
+        {"name":"Subnets","link":"https://www.jameslazo.com/tags/subnets/"},
+        {"name":"Load Balancing","link":"https://www.jameslazo.com/tags/load-balancing/"},
+        {"name":"Serverless","link":"https://www.jameslazo.com/tags/serverless/"},
+        {"name": Microstacks","link":"https://www.jameslazo.com/tags/microstacks/"},
+        {"name":"RESTful APIs","link":"https://www.jameslazo.com/tags/restful-apis/"}
       ]
   },
   {
       "grouping":"CI/CD",
       "skills":[
-        {"name":"Git","link":"https://www.jameslazo.com/tags/git"},
-        {"name":"GitHub Actions","link":"https://www.jameslazo.com/tags/github-actions"},
-        {"name":"FluxCD","link":"https://www.jameslazo.com/tags/fluxcd"},
-        {"name":"Jenkins","link":"https://www.jameslazo.com/tags/jenkins"}
+        {"name":"Git","link":"https://www.jameslazo.com/tags/git/"},
+        {"name":"GitHub Actions","link":"https://www.jameslazo.com/tags/github-actions/"},
+        {"name":"FluxCD","link":"https://www.jameslazo.com/tags/fluxcd/"},
+        {"name":"Jenkins","link":"https://www.jameslazo.com/tags/jenkins/"}
       ]
   },
   {
     "grouping":"Languages",
     "skills":[
-      {"name":"Python","link":"https://www.jameslazo.com/tags/python"},
-      {"name":"Bash","link":"https://www.jameslazo.com/tags/bash"},
-      {"name":"SQL","link":"https://www.jameslazo.com/tags/sql"},
-      {"name":"YAML","link":"https://www.jameslazo.com/tags/yaml"},
-      {"name":"JSON","link":"https://www.jameslazo.com/tags/json"},
-      {"name":"XML","link":"https://www.jameslazo.com/tags/xml"},
-      {"name":"JavaScript","link":"https://www.jameslazo.com/tags/javascript"}
+      {"name":"Python","link":"https://www.jameslazo.com/tags/python/"},
+      {"name":"Bash","link":"https://www.jameslazo.com/tags/bash/"},
+      {"name":"SQL","link":"https://www.jameslazo.com/tags/sql/"},
+      {"name":"YAML","link":"https://www.jameslazo.com/tags/yaml/"},
+      {"name":"JSON","link":"https://www.jameslazo.com/tags/json/"},
+      {"name":"XML","link":"https://www.jameslazo.com/tags/xml/"},
+      {"name":"JavaScript","link":"https://www.jameslazo.com/tags/javascript/"}
     ]
   }
 ]
