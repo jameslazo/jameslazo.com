@@ -3,7 +3,7 @@ title: "Cloud Resume Challenge"
 link: "https://medium.com/@james.lazo/my-cloud-resume-challenge-journey-cde1f5dca18b"
 image: "/img/cloud-resume.png"
 description: "Deployed secure Cloud Native two-tier website with IaC and CI/CD"
-tags: ["DevOps","IaC","Terraform","CI/CD","GitHub Actions","DNS","web development","VPC","serverless","microstacks"]
+tags: ["DevOps","IaC","Terraform","CI/CD","GitHub Actions","DNS","web development","VPC","serverless","microstacks","JavaScript"]
 fact: "a"
 featured: true
 ---
