@@ -3,7 +3,7 @@ title: "Game Reel Highlight Processor"
 link: "https://medium.com/@james.lazo/day-5-devops-challenge-highlight-reel-fargate-deployment-e75e4d2f32c3"
 image: "/img/game-highlights-processor.png"
 description: "Video highlight processor deployed to AWS Fargate through ECR, with GitHub Actions CI/CD"
-tags: ["DevOps","CI/CD","IaC","AWS","GitHub Actions","Terraform","containers","Docker","Python","REST APIs"]
+tags: ["DevOps","CI/CD","IaC","AWS","GitHub Actions","Terraform","containers","Docker","Python","REST APIs","microstacks","serverless"]
 fact: ""
 featured: true
 ---

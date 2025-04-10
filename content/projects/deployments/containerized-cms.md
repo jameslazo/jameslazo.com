@@ -3,7 +3,7 @@ title: "Containerized CMS Deployment"
 link: "https://medium.com/@james.lazo/containerized-cms-deployment-e735da873307"
 image: "/img/cms.png"
 description: "Deployed WordPress in a Multi-AZ load-balanced configuration, decoupling the data and application layers"
-tags: ["DevOps","IaC","Terraform","Docker","containers","SQL","RDS","high availability","DNS","web development"]
+tags: ["DevOps","IaC","Terraform","Docker","containers","SQL","RDS","high availability","DNS","web development","VPC","Load Balancing","RESTful APIs"]
 fact: "a"
 featured: true
 ---

@@ -3,7 +3,7 @@ title: "Kubernetes Migration"
 link: "https://medium.com/@james.lazo/migrating-a-video-surveillance-app-to-kubernetes-90ac77913d9d"
 image: "/img/k8s.png"
 description: "Containerized traditional app package and refactored configuration for k8s deployment with Grafana/Prometheus monitoring"
-tags: ["DevOps","Kubernetes","homelab","containers","Docker","orchestration","networking","media processing"]
+tags: ["DevOps","Kubernetes","homelab","containers","Docker","orchestration","networking","media processing","Linux"]
 fact: "a"
 featured: true
 ---
