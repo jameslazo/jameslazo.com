@@ -6,6 +6,8 @@ This project started as a fork from Eddie Webb's [Hugo Resume theme](https://git
 
 I wanted to update my personal website to use a static site generator and settled on Hugo. This allows for switching themes and provides options for deploying to multiple environments. I also wanted to apply more DevOps practices to my site, refining my GitHub Actions workflows and adding a dev container to provide a portable workflow for trying and tuning different themes. I also reference the Terraform repository for provisioning all resources in AWS as a Git submodule for reference. I should note that the original repository includes Circle CI for deployment and Netlify CMS for editing and Git version control. I just prefer Terraform and GitHub Actions for my workflow.
 
+![Architecture](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*UTFuD0JA8siOhIGEyNgHFg.png)
+
 ## Credits
 
 Forked from Eddie Webb's [Hugo Resume theme](https://github.com/eddiewebb/hugo-resume).
