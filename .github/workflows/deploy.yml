@@ -4,8 +4,13 @@ name: Hugo Deploy
 on:
   push:
     branches:
-      - main
-      - staging
+    - main
+    - staging
+    paths-ignore:
+    - 'README.md'
+    - '.gitignore'
+    - '.gitmodules'
+    - '.github/**'
   workflow_dispatch:
 
 permissions:
