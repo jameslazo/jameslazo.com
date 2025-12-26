@@ -27,7 +27,7 @@ sections = ["skills","deployments","contributions","experience","education"]
 [params.google]
 
 [params.google.analytics]
-trackerID = "XX"
+trackerID = "G-TFZ1T9V0JZ"
 
 [[params.handles]]
     name = "LinkedIn"
