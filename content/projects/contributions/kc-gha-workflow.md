@@ -3,7 +3,7 @@ title: "GitHub Actions Workflow"
 link: "https://github.com/mischavandenburg/kubecraft/pull/51"
 image: "/img/gha-workflow.png"
 description: "Developed GitHub Actions workflow to update commits to KubeCraft Community documentation"
-featured: true
+featured: false
 tags: ["GitHub Actions","CI/CD","Git","Bash","Web Development"]
 fact: "Automated page generation of all previous <code>docs</code> commits."
 weight: 100
